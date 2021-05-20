@@ -1,0 +1,7 @@
+# JSIC
+Javascript Ideal Classes
+This project was started a few years ago when I was attempting to get a fellow developer on board with JavaScript.  Being a staunch C++ developer, He said he hated JavaScript because it has no native inheritance, polymorphism, datatyping or function overloading. Knowing how flexible javascript is, (So flexible it can get you into trouble) I was pretty confident that I could accomplish the task.  After a few days I showed him the rough draft of the library and he considered trying it out. He can't leave JavaScript alone now. 
+
+I know some of you are excited about typescript (Yawn). TypeScript is ok for compile time checking, but what happens at runtime.  All of that datatyping is not checked at runtime so what happens when a piece of data comes across during runtime that's not the right type? Errors! Also, I laugh at the underlying structure of TypeScript's "Inheritance". Creating a new object on the prototype of a constructor does not give you inheritance.  Every Instance of the Derrived "Class" shares an object of what is being inherited and your data gets walked on.  That's not inheritance!
+
+What I've done with JSIC is created an Inheritance function that does inheritance at runtime, Function definitions which check datatypes of passed in parameters, and with those Function Definitions can create overloaded Functions as a result. I don't have the API documentation drawn out yet because I've been utilizing and testing it with my own projects which have turned out quite well.
